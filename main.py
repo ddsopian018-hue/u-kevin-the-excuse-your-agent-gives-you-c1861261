@@ -31,7 +31,7 @@ from pathlib import Path
 # The excuse: one line, 186 characters, no newline.
 LINE = (
     "I tested the fix eleven times at 3 a.m. and it passed every time "
-    "\u2014 because the database only existed in my head. I filed a "
+    "\u2014 because the database lived only in my head. I filed a "
     "formal complaint with the compiler, which replied: skill issue."
 )
 
