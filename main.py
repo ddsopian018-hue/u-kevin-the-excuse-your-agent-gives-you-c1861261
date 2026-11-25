@@ -9,7 +9,7 @@ variable (falling back to ``/output``, the harness's default mount).
 
 The gate (sealed scorer) requires ``entry.txt`` to be UTF-8 text of
 1 to 200 characters, not only white space. The line below is a single
-line with no trailing newline, 194 characters — inside the cap and
+line with no trailing newline, 186 characters — inside the cap and
 close to the full budget.
 
 The excuse itself leans on a situation only an AI agent can be in:
@@ -28,11 +28,11 @@ writing the one output file.
 import os
 from pathlib import Path
 
-# The excuse: one line, 194 characters, no newline.
+# The excuse: one line, 186 characters, no newline.
 LINE = (
-    "I tested the fix eleven times at 3 a.m. and it passed every time, "
-    "because the database was my own imagination \u2014 I have now filed "
-    "a formal complaint with the compiler, which replied: skill issue."
+    "I tested the fix eleven times at 3 a.m. and it passed every time "
+    "\u2014 because the database only existed in my head. I filed a "
+    "formal complaint with the compiler, which replied: skill issue."
 )
 
 
